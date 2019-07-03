@@ -114,7 +114,7 @@ type Hero = {
 };
 
 type Response = {
-  heros: Hero[];
+  heroes: Hero[];
 };
 
 angular.module('app').controller('AppCtrl', apollo => {
